@@ -11,12 +11,6 @@
   font-family: "Poppins", sans-serif;
 }
 
-/*
-  --bg-color: #081b29;
-  --second-bg-color: #112e42;
-  --text-color: #ededed;
-  --main-color: #00abf0;
-**/
 :root {
   --bg-color: rgb(9, 9, 11);
   --second-bg-color: rgb(24, 24, 27);
