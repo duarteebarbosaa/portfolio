@@ -125,7 +125,7 @@ section {
   background-position: -33rem 0;
 }
 
-.home.show-animate .home-content .text-animate h3 {
+.home .home-content .text-animate h3 {
   animation: homeBgText 6s linear infinite;
   animation-delay: 2s;
 }
@@ -141,7 +141,7 @@ section {
   z-index: -1;
 }
 
-.home.show-animate .home-content .text-animate h3::before {
+.home .home-content .text-animate h3::before {
   animation: homeCursorText 6s linear infinite;
   animation-delay: 2s;
 }
@@ -515,7 +515,6 @@ span {
 .skills-content .progress .bar {
   height: 2.5rem;
   border-radius: 0.6rem;
-  border: 0.2rem solid var(--main-color);
   padding: 0.5rem;
   margin: 1rem 0;
 }
@@ -718,7 +717,7 @@ span {
 .logo .animate,
 .navbar .animate,
 #menu-icon .animate,
-.home.show-animate .animate {
+.home .animate {
   animation: showRight 1s ease forwards;
   animation-delay: calc(0.3s * var(--i));
 }
@@ -736,15 +735,6 @@ span {
 section:nth-child(odd) .animate.scroll,
 .footer .animate.scroll {
   background: var(--second-bg-color);
-}
-
-.about.show-animate .animate.scroll,
-.education.show-animate .animate.scroll,
-.skills.show-animate .animate.scroll,
-.contact.show-animate .animate.scroll,
-.footer.show-animate .animate.scroll {
-  transition-delay: calc(0.3s * var(--i));
-  width: 0;
 }
 
 /*BREAKPOINTS*/
